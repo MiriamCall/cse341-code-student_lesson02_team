@@ -1,0 +1,20 @@
+{
+  "professionalName": "Miriam Call",
+  "base64Image": "https://avatars.githubusercontent.com/u/131120127?s=400&u=e0b96e4688de1db9023a133d47db456277b88153&v=4",
+  "nameLink": {
+    "firstName": "Miriam",
+    "url": "http://example.com"
+  },
+  "primaryDescription": "Primary description",
+  "workDescription1": "Work description 1",
+  "workDescription2": "Work description 2",
+  "linkTitleText": "Link title text",
+  "linkedInLink": {
+    "text": "LinkedIn",
+    "link": "https://linkedin.com"
+  },
+  "githubLink": {
+    "text": "GitHub",
+    "link": "https://github.com"
+  }
+}

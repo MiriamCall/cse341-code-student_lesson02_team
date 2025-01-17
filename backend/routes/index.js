@@ -1,8 +1,5 @@
-const express = require("express");
-
+const router = require("express").Router();
 const professionalController = require("../controllers/professional");
-
-const router = express.Router();
 
 router.get("/professional", professionalController.getData);
 
