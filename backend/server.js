@@ -4,8 +4,8 @@ const connectToDatabase = require("./database/db_connection");
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 8080;
-const HOST = "localhost";
+const port = process.env.PORT || 8080;
+const host = process.env.HOST || "localhost";
 
 app.use(express.json()); //used to parse JSON bodies
 
@@ -20,6 +20,6 @@ connectToDatabase()
 
 app.use("/", require("./routes"));
 
-app.listen(PORT, HOST, () => {
-  console.log(`Server running at http://${HOST}:${PORT}/`);
+app.listen(port, host, () => {
+  console.log(`Server running at http://${host}:${port}/`);
 });
